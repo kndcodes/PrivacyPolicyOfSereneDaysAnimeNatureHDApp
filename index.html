@@ -91,9 +91,13 @@
   <h2>Summary</h2>
   <p>Our app does not collect or share any personal data. All favorites and settings remain on your device. Ads are provided by Google AdMob in accordance with Google’s Privacy Policy.</p>
 
-  <footer>
-    © 2025 SereneDays: Anime Nature HD. All rights reserved.
-  </footer>
+ <footer>
+    © <span id="year"></span> knfused (SereneDays). All rights reserved.
+ </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
 
 </body>
 </html>
